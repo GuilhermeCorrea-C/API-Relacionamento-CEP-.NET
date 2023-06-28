@@ -9,7 +9,7 @@ namespace APIRelacionamento.Models
     {
         public int idColaborador { get; set; }
         public string nome { get; set; }
-        public float salario { get; set; }
+        public decimal salario { get; set; }
         
         public ICollection<DependenteModel>? ListaDependentes = new List<DependenteModel>();
 
