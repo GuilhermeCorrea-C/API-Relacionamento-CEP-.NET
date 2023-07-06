@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+V+duCC2pIY+IUfj4PQATs80rr6MHn0N22HxlGbGUPejWqrzamqNsH29UZ68/6U/SnXhDby71RlIIrXP5ppO7Q==",
+  "dgSpecHash": "XlaIIpf3XM8vPF6JgM9p6eqxka0YC5hg8XbK1/Ay5cSRNfhLsEsPjVJ8vpJFgMG4kVrEb2+S4t2lq7csIXnfFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+  "projectFilePath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.http\\5.0.0\\microsoft.extensions.http.5.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
@@ -36,6 +37,8 @@
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\refit\\6.0.1\\refit.6.0.1.nupkg.sha512",
+    "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\refit.httpclientfactory\\6.0.1\\refit.httpclientfactory.6.0.1.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -45,6 +48,7 @@
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
@@ -62,6 +66,26 @@
       "warningLevel": 1,
       "message": "APIRelacionamento depende de Microsoft.AspNetCore.OpenApi (>= 6.0.0), mas Microsoft.AspNetCore.OpenApi 6.0.0 não foi encontrado. A melhor correspondência aproximada de Microsoft.AspNetCore.OpenApi 7.0.0 foi resolvida.",
       "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "APIRelacionamento depende de Refit (>= 6.0.0), mas Refit 6.0.0 não foi encontrado. A melhor correspondência aproximada de Refit 6.0.1 foi resolvida.",
+      "libraryId": "Refit",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "APIRelacionamento depende de Refit.HttpClientFactory (>= 6.0.0), mas Refit.HttpClientFactory 6.0.0 não foi encontrado. A melhor correspondência aproximada de Refit.HttpClientFactory 6.0.1 foi resolvida.",
+      "libraryId": "Refit.HttpClientFactory",
       "targetGraphs": [
         "net7.0"
       ]

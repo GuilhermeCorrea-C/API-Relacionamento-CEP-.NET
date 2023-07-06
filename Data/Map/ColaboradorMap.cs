@@ -15,11 +15,6 @@ namespace APIRelacionamento.Data.Map
             builder.HasKey(x => x.idColaborador);
             builder.Property(x => x.nome).IsRequired().HasMaxLength(100);
             builder.Property(x => x.salario).IsRequired();
-            
-           
-           
-
-
         }
     }
 }

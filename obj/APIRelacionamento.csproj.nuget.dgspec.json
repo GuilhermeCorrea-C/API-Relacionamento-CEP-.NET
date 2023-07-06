@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj": {}
+    "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj": {
+    "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+        "projectUniqueName": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
         "projectName": "APIRelacionamento",
-        "projectPath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+        "projectPath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
         "packagesPath": "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\obj\\",
+        "outputPath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CODE-DEV-58\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,6 +62,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Refit.HttpClientFactory": {
               "target": "Package",
               "version": "[6.0.0, )"
             },

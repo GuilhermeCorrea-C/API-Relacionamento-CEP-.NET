@@ -1,4 +1,5 @@
 is_global = true
+build_property.RefitInternalNamespace = APIRelacionamento
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
@@ -9,9 +10,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APIRelacionamento
 build_property.RootNamespace = APIRelacionamento
-build_property.ProjectDir = C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\
+build_property.ProjectDir = c:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento
+build_property.MSBuildProjectDirectory = c:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento
 build_property._RazorSourceGeneratorDebug = 
