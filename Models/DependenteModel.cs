@@ -10,7 +10,7 @@ namespace APIRelacionamento.Models
         public int idDependente { get; set; }
         public string nome { get; set;}
         public string sobrenome { get; set; }
-        public int? idColaborador { get; set; }
+        public int idColaborador { get; set; }
         public virtual ColaboradorModel? Colaborador { get; set; }
 
     }

@@ -23,7 +23,7 @@ namespace APIRelacionamento.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.ApplyConfiguration(new ColaboradorMap());
             modelBuilder.ApplyConfiguration(new DependenteMap());
-            modelBuilder.Entity<ColaboradorModel>().HasMany(x => x.ListaDependentes).WithOne(x=>x.Colaborador).HasForeignKey(x => x.idColaborador).IsRequired(false);
+            modelBuilder.Entity<ColaboradorModel>().HasMany(x => x.ListaDependentes).WithOne(x=>x.Colaborador).HasForeignKey(x => x.idColaborador).IsRequired();
             modelBuilder.Entity<ViaCepModel>(entity => {
                 entity.HasKey(x => x.Cep);
                 
