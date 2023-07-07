@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XlaIIpf3XM8vPF6JgM9p6eqxka0YC5hg8XbK1/Ay5cSRNfhLsEsPjVJ8vpJFgMG4kVrEb2+S4t2lq7csIXnfFQ==",
+  "dgSpecHash": "wdCMGUIQFShGHKqu6KvjzHshdDmhUIwB1G68HJTyWlpCUHaeAoknSm6mRXJgmokM5GHNNFQDcZLwOV0rNmylKg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+  "projectFilePath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",

@@ -2626,11 +2626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+      "projectUniqueName": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
       "projectName": "APIRelacionamento",
-      "projectPath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
+      "projectPath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\APIRelacionamento.csproj",
       "packagesPath": "C:\\Users\\CODE-DEV-58\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\obj\\",
+      "outputPath": "C:\\Users\\CODE-DEV-58\\Desktop\\TesteRelacionamento\\APIRelacionamento\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CODE-DEV-58\\AppData\\Roaming\\NuGet\\NuGet.Config",

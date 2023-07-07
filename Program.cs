@@ -3,6 +3,10 @@ using Microsoft.EntityFrameworkCore;
 using APIRelacionamento.Models;
 using APIRelacionamento.Repositorios;
 using APIRelacionamento.Repositorios.Interfaces;
+using Refit;
+using APIRelacionamento.Integracao;
+using APIRelacionamento.Integracao.Refit;
+using APIRelacionamento.Integracao.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +22,13 @@ builder.Services.AddEntityFrameworkSqlServer()
                     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"))
                 );
 
+builder.Services.AddRefitClient<IViaCepIntegracaoRefit>().ConfigureHttpClient(c=>{
+    c.BaseAddress = new Uri("https://viacep.com.br");
+});
+
 builder.Services.AddScoped<IColaboradoresRepositorios, ColaboradoresRepositorio>();
 builder.Services.AddScoped<IDependentesRepositorio, DependentesRepositorio>();
+builder.Services.AddScoped<IViaCepIntegracao, ViaCepIntegracao>();
 
 var app = builder.Build();
 

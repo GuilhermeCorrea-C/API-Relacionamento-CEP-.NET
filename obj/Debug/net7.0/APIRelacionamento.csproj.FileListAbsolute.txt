@@ -64,3 +64,5 @@ C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net7.0\APIRelacionamento.pdb
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net7.0\APIRelacionamento.genruntimeconfig.cache
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net7.0\ref\APIRelacionamento.dll
+C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Refit.dll
+C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Refit.HttpClientFactory.dll
