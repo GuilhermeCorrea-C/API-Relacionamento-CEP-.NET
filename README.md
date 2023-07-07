@@ -27,7 +27,7 @@ No VS Code:<br>
 {
   "nome": "string",
   "salario": 0,
-  "cepColaborador": "string" // XXXXX-XX
+  "cepColaborador": "XXXXX-XXX"
 }
 ```
 </p>
