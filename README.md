@@ -1,5 +1,5 @@
 # TesteRelacionamentoAPI
-Esse é um repositório de estudos de Web API do .NET Core 6.0 utilizando o EntityFramework e o ORM para a criação e alteração de duas tabelas no SQL Server + integração com uma API externa do ViaCep utilizando a biblioteca Refit. <br>
+Esse é um repositório de estudos de Web API do .NET Core 7.0 utilizando o EntityFramework e o ORM para a criação e alteração de duas tabelas no SQL Server + integração com uma API externa do ViaCep utilizando a biblioteca Refit. <br>
 ---
 <p> - Neste projeto experimental de estudos, a estrutura fica definida em uma tabela de Colaboradores, Dependentes e InfoCep.</p>
 
