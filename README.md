@@ -15,7 +15,7 @@ Esse é um repositório de estudos de Web API do .NET Core 7.0 utilizando o Enti
 <p>
 No VS Code:<br>
  1. <strong>`dotnet restore .\APIRelacionamento.csproj`</strong> na pasta principal do projeto para restaurar as dependências utilizadas. <br>
- 2. Utilizar o <strong>`dotnet tool update --global dotnet-ef`</strong> para rodar a migration num novo repositório. <br>
+ 2. Utilizar o <strong>`dotnet tool update --global dotnet-ef`</strong> e depois <strong>`dotnet ef database update`</strong> para rodar a migration existente no projeto num novo repositóorio. <br>
  3. <strong>`dotnet run`</strong> para executar o projeto <br> 
  4. Utilizar o <strong>`localhost:XXXX/swagger`</strong> para abrir visualização com o swagger. 
 </p>
