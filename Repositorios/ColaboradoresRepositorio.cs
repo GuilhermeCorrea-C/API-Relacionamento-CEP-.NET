@@ -19,12 +19,12 @@ namespace APIRelacionamento.Repositorios
         }
          public async Task<ColaboradorModel> BuscarPorId(int id)
         {
-            return await _dbContext.Colaboradores.FirstOrDefaultAsync(x => x.idColaborador == id);
+            return await _dbContext.Colaboradores.Include(c => c.ListaDependentes).SingleOrDefaultAsync( x => x.idColaborador == id);
         }
 
         public async Task<List<ColaboradorModel>> BuscarTodosColaboradores()
         {
-            return await _dbContext.Colaboradores.ToListAsync();
+            return await _dbContext.Colaboradores.Include(c => c.ListaDependentes).ToListAsync();
         }
         public async Task<ColaboradorModel> Adicionar(ColaboradorModel colaborador)
         {

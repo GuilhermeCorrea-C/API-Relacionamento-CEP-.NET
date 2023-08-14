@@ -66,3 +66,5 @@ C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\obj\Debug\net7.0\ref\APIRelacionamento.dll
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Refit.dll
 C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Refit.HttpClientFactory.dll
+C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\CODE-DEV-58\Desktop\TesteRelacionamento\APIRelacionamento\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

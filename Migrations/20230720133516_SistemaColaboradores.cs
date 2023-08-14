@@ -4,7 +4,7 @@
 
 namespace APIRelacionamento.Migrations
 {
-    public partial class MigracaoTesteCEP : Migration
+    public partial class SistemaColaboradores : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -57,7 +57,7 @@ namespace APIRelacionamento.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     sobrenome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    idColaborador = table.Column<int>(type: "int", nullable: true)
+                    idColaborador = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,7 +66,8 @@ namespace APIRelacionamento.Migrations
                         name: "FK_Dependentes_Colaboradores_idColaborador",
                         column: x => x.idColaborador,
                         principalTable: "Colaboradores",
-                        principalColumn: "idColaborador");
+                        principalColumn: "idColaborador",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(

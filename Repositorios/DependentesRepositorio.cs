@@ -59,7 +59,7 @@ namespace APIRelacionamento.Repositorios
             dependentePorId.idDependente = dependente.idDependente;
             dependentePorId.nome = dependente.nome;
             dependentePorId.sobrenome = dependente.sobrenome;
-            dependentePorId.idColaborador = dependente.idColaborador;
+            dependentePorId.ColaboradorId = dependente.ColaboradorId;
 
             _dbContext.Dependentes.Update(dependentePorId);
             await _dbContext.SaveChangesAsync();

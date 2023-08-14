@@ -3,6 +3,7 @@ using APIRelacionamento.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace APIRelacionamento.Migrations
 {
     [DbContext(typeof(SistemaConsultasDBContext))]
-    partial class SistemaConsultasDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230720133516_SistemaColaboradores")]
+    partial class SistemaColaboradores
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -56,7 +58,7 @@ namespace APIRelacionamento.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idDependente"), 1L, 1);
 
-                    b.Property<int>("ColaboradorId")
+                    b.Property<int>("idColaborador")
                         .HasColumnType("int");
 
                     b.Property<string>("nome")
@@ -71,7 +73,7 @@ namespace APIRelacionamento.Migrations
 
                     b.HasKey("idDependente");
 
-                    b.HasIndex("ColaboradorId");
+                    b.HasIndex("idColaborador");
 
                     b.ToTable("Dependentes");
                 });
@@ -137,7 +139,7 @@ namespace APIRelacionamento.Migrations
                 {
                     b.HasOne("APIRelacionamento.Models.ColaboradorModel", "Colaborador")
                         .WithMany("ListaDependentes")
-                        .HasForeignKey("ColaboradorId")
+                        .HasForeignKey("idColaborador")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
